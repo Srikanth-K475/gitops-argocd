@@ -16,7 +16,7 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: wordpress
+      - image: jolielang/website
         name: solar-system
         imagePullPolicy: Always
         ports: 
