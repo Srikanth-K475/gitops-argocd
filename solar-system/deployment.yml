@@ -16,7 +16,7 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: edirom/ess-website
+      - image: wordpress
         name: solar-system
         imagePullPolicy: Always
         ports: 
