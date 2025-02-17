@@ -16,7 +16,7 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: jolielang/website
+      - image: hashicorp/learn-website
         name: solar-system
         imagePullPolicy: Always
         ports: 
